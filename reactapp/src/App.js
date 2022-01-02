@@ -8,7 +8,7 @@ import Login from "./pages/login";
 import BoardCreation from "./pages/boardcreation";
 import IdeaCreation from "./pages/ideacreation";
 import Board from "./pages/board";
-import Account from "./pages/Account";
+import Account from "./pages/account";
 
 import { Provider } from "react-redux";
 import { createStore, combineReducers } from "redux";
