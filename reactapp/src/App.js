@@ -4,10 +4,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages";
 import About from "./pages/about";
 
-import Login from "./pages/Login";
-import BoardCreation from "./pages/BoardCreation";
-import IdeaCreation from "./pages/IdeaCreation";
-import Board from "./pages/Board";
+import Login from "./pages/login";
+import BoardCreation from "./pages/boardcreation";
+import IdeaCreation from "./pages/ideacreation";
+import Board from "./pages/board";
 import Account from "./pages/Account";
 
 import { Provider } from "react-redux";
