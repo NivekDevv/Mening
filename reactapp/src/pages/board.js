@@ -29,6 +29,7 @@ const Board = (props) => {
   const [alreadyVoted, setAlreadyVoted] = useState(0);
 
   // recuperation du board
+
   useEffect(() => {
     var findBoards = async () => {
       var boards = await fetch(`/myboard/${id}`); // utilisation du param pour retrouver l'id du board
